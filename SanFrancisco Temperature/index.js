@@ -80,5 +80,5 @@ const link = 'https://vizhub.com/curran/datasets/temperature-in-san-francisco.cs
  		d.temperature = +d.temperature;
  		d.timestamp = new Date(d.timestamp);
  	})
- 	render(data);
+ 	render(data); 
  });
