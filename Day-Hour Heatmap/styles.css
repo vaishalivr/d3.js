@@ -1,0 +1,22 @@
+body{
+	margin-left: 10;
+	overflow: hidden;
+}
+
+.bordered{
+	stroke: #E6E6E6;
+	stroke-width:2px;
+}
+
+.mono{
+	fill: #aaa;
+	font-size: 9pt;
+}
+
+text{
+	font-family: sans-serif;
+}
+
+h3{
+	font-family: sans-serif;
+}
