@@ -1,0 +1,9 @@
+body {
+	margin: 0;
+	overflor:hidden;
+}
+
+.header {
+	font-family: sans-serif;
+	font-size: 18px;
+}
