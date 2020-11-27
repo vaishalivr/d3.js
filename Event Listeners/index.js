@@ -48,7 +48,7 @@ svg.selectAll('text')
 		.attr('y', (d,i) => i*30 + 14)
 		.attr('fill', 'white')
 		.attr('font-family', 'sans-serif')
-		.attr('font-size', '10px');
+		.attr('font-size', '10px'); 
 
 
 
