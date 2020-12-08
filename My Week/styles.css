@@ -1,0 +1,26 @@
+.container {
+	background: black;
+	transform: translate(0,20);
+}
+
+text {
+	fill: #fff;
+}
+
+.header {
+	font-family: sans-serif;
+	font-size: 1.5em;
+	text-anchor: middle;
+	fill: #f5f5f5 !important;
+}
+
+.days {
+	font-family: sans-serif;
+	text-anchor: middle;
+	color: white;
+}
+
+.seperator {
+	stroke: white;
+	stroke-width: 3px;
+}
