@@ -1,0 +1,31 @@
+svg {
+	border:3px solid black;
+}
+
+.circle {
+	stroke: black;
+	fill: none;
+	stroke-width:0.3px;
+}
+
+.text {
+	text-anchor: middle;
+	font-family: sans-serif;
+	font-size: 0.75rem;
+	display: block;
+	text-decoration: underline;
+	text-underline-offset: 0.5em;
+	text-decoration-thickness: 1.5px;
+}
+
+.text::after {
+	content: " ";
+	display: block;
+	border-bottom: 1px solid black;
+}
+
+.line{
+	content: " ";
+	display: block;
+	border-bottom: 1px solid black;
+}
