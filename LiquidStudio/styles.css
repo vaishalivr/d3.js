@@ -1,0 +1,71 @@
+body {
+	font-family: sans-serif;
+	margin-right: 9vw;
+	margin-left: 5vw;
+	margin-top: 60px;
+}
+
+.chartspace {
+	display: flex;
+	flex-direction: row;
+	max-height: 550px;
+}
+
+.mainheading {
+	font-size: 30px;
+	text-align: center;
+}
+
+.subheading {
+	font-size: 21px;
+	text-align: center;
+}
+
+.introduction {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.svg {
+	display: flex;
+	flex-direction: row;
+}
+
+.graph > #svg3 {
+	display: inline;
+	flex-direction: row;
+	/*float: left;*/
+}
+
+.graph > #svg4 {
+	display: inline;
+	flex-direction: row;
+	/*float: right;*/
+	margin-left: 9px;
+}
+
+.bartext {
+	font-size: 12px;
+	fill: #000000;
+}
+
+.questionslider {
+	margin-right: 15px;
+	max-width: 240px;
+}
+
+.graph {
+	margin-left: 15px;
+	margin-top: 10px;
+	display: flex;
+	/*overflow: auto;*/
+}
+
+.graphdescription {
+	font-style: italic;
+	font-size: 15px;
+}
+
+.x-axis {
+	stroke-width: 3px;
+}
