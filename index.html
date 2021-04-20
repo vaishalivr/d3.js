@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Liquid Studios</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+	<script src="https://unpkg.com/d3-simple-slider"></script>
+</head>
+
+<body>
+	<h2 class='mainheading'>Change in Communication Services Landscape Over the Years</h2>
+	<p class="subheading">This is how United States is Graduating when speaking about Communications</p>
+	<br>
+	<br>
+	<br>
+	<!-- <br>
+	<br> -->
+
+	<p class="introduction">The way we communicate and the way the communication services are provided has changed over time and is expected to keep evolving in the future. Below is an attempt to determine change in customer behaviour and company’s response over time.</p>
+
+	<p class="introduction">The interactive visualization (made in D3.js) comes as an answer to a series of questions which have been formulated keeping the reader in mind and comparing to others in United States. And a showcase of what have the service providers done to make this possible.</p>
+
+	<p class="introduction">The data has been collected from a number of sources but mostly <a href="https://www.statista.com/">Statista</a> (not behind paywall) and <a href="https://www.pewresearch.org/">Pew Research</a>. Simple linear regression has helped determine the missing values in a data row.
+	Number of televisions, broadband connection are calculated as a function of number of households in the US, while cellphones, smart phone only internet users has been calculated as a function on population of the United States.</p> 
+	<br><br>
+	<div><b>A statistical look in the change of customer behaviour:</b></div>
+	<br><br>
+
+	<div class="chartspace">
+		<div class="questionslider">
+			<h3>How likely are (or were) you to have a Television?</h3>
+			<div id='slider-step1'></div>
+			<p style="width:11px;height:11px;border:1px solid #a100ff; background-color:#a100ff; display:inline;">&nbsp;&nbsp;&nbsp;</p>
+			<span>SmartTV</span>
+			<br>
+			<br>
+			<p style="width:11px;height:11px;border:1px solid #a100ff; background-color:#fff; display:inline">&nbsp;&nbsp;&nbsp;</p>
+			<span>NormalTV</span>
+			<p class="graphdescription">With the increasing number of Smart TV's the companies are now competing for the latest innovation in user interface, 
+			content aggregation and application development.</p>
+			<p class="graphdescription"></p>
+		</div>
+
+		<div class="graph">
+			<svg width='600' height='400' id=svg1 class='svg'></svg> 
+		</div>
+	</div>
+	<br><br><br><br><br>
+
+	<div class="chartspace">
+		<div class="questionslider">
+			<h3>How likely are (or were) you to own a Cellphone?</h3>
+			<div id="slider-step2"></div>
+			<p style="width:11px;height:11px;border:1px solid #a100ff; background-color:#a100ff; display:inline;">&nbsp;&nbsp;&nbsp;</p>
+			<span>Smart Phone</span>
+			<br><br>
+			<p style="width:11px;height:11px;border:1px solid #a100ff; background-color:#fff; display:inline;">&nbsp;&nbsp;&nbsp;</p>
+			<span>Normal Phone</span>
+			<p class="graphdescription">The cellphones are fast evolving to be single point of contact for all communication and educational needs.</p>
+			<p class="graphdescription">All of this while investing in user experience and being made eco friendly.</p>
+		</div>
+
+		<div class="graph">
+			<svg width='600' height='400' id='svg2' class='svg'></svg>
+		</div>
+	</div>
+	<br><br><br><br><br>
+	
+
+	<div class="chartspace">
+		<div class="questionslider">
+			<h3>How likely are (or were) you to have Internet?</h3>
+			<div id="slider-step3"></div>
+			<div id="slider-step4"></div>
+			<p class="graphdescription">We are graduating to a mobile first World and are entering into different form and factors of smartphones. </p>
+			<p class="graphdescription">In future people are more likely to use it for IoT depending on 5G to make a quicker service possible.</p>
+		</div>
+
+		<div class="graph">
+			<svg width='550' height='400' id='svg3' class='svg'></svg>
+			<svg width='550' height='400' id='svg4' class='svg'></svg>
+		</div>
+	</div>
+	<br><br><br><br><br>
+	<div>Other aspects of these changes are:</div>
+	<br>
+	<div> - Increase in usage of smart devices such as smartphones, smart TVs, IoT based devices like voice assistants, digital wearables, home automation,etc.</div>
+	<br>
+	<div> - Increase in use of connected applications, services and equipments by various business related industry verticals.</div>
+	<br><br><br>
+<!-- </div> -->
+	
+	<div><b>A statistical look into the landscape of the service providers:</b></div>
+	<br><br><br>
+	
+
+	<div class="chartspace">
+		<div class="questionslider">
+			<h3>How much spending is likely to be made to provide services?</h3>
+			<div id="slider-step5"></div>
+			<p class="graphdescription">The stagnaion between 2019-20 is attributed to the effects of pandemic. The increase in spending is more likely to be attributed to people working from home and slowdown in travel and tourism.</p>
+		</div>
+
+		<div class="graph">
+			<svg width='550' height='400' id='svg5' class='svg'></svg>
+		</div>
+	</div>
+	<br><br><br><br><br>
+
+	<div class="chartspace">
+		<div class="questionslider">
+			<h3>How many satellites are expected to be launched?</h3>
+			<div id="slider-step6"></div>
+			<!-- <p style="width:12px;height:12px;border:1px solid #a100ff; background-color:#a100ff; display: inline;">&nbsp;&nbsp;&nbsp;</p>
+			<span>Government</span>
+			<br><br>
+			<div style="width:12px;height:12px;border:1px solid #a100ff; background-color:#fff; display: inline;">&nbsp;&nbsp;&nbsp;</div>
+			<span>SpaceX</span> -->
+			<!-- <div id="slider-step7"></div> -->
+			<p class="graphdescription">As communication satellites, the US Government has under 65 and SpaceX is putting constellations of Starlink in low orbits around the planet.</p>
+			<p class="graphdescription">These satellites will be able to transmit fast signals and enable better comminucations to Earth, including the remotest parts.</p>
+		</div>
+
+		<div class="graph">
+			<svg width='550' height='400' id='svg6' class='svg'></svg>
+			
+			<!-- <svg width='550' height='360' id='svg7' class='svg'></svg> -->
+		</div>
+	</div>
+	<br><br><br><br><br>
+
+	<div class="chartspace">
+		<div class="questionslider">
+			<h3>How many cell phone towers are likely to be present?</h3>
+			<div id="slider-step8"></div>
+			<p class="graphdescription">With increase in number of cell phones and services they provide, this number is increasing and more rework is being done to convert them to higher technology.</p>
+		</div>
+
+		<div class="graph">
+			<svg width='550' height='400' id='svg8' class='svg'></svg>
+		</div>
+	</div>
+	<br><br><br><br><br>
+	<div>Other coping mechanisms are:</div>
+	<br>
+	<div> - Constant innovation to provide higher band width (mostly getting driven by increase in usage of video streaming services) by increase in investment of technology like Hybrid fiber cable(HFC), fiber to the home(FTTH), all this in addition to providing good content and user experience.</div>
+	<br>
+	<div> - Reliable service while reducing operational costs by investing in IoT to monitor in real time, to fix equipment issues and to make adjustments to remote equipments.</div>
+	<br>
+
+	<script src="index1.js" type="text/javascript"></script>
+	<script src="index2.js" type="text/javascript"></script>
+	<script src="index3.js" type="text/javascript"></script>
+	<script src="index4.js" type="text/javascript"></script>
+	<script src="index5.js" type="text/javascript"></script>
+	<script src="index-satellites.js" type="text/javascript"></script>
+<!-- 	<script src="index7.js" type="text/javascript"></script> -->
+	<script src="index8.js" type="text/javascript"></script>
+</body>
+</html>
